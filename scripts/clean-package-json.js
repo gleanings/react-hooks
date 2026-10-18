@@ -21,7 +21,7 @@ const { dependencies, peerDependencies } = packageJson;
   'packageManager',
   'peerDependencies',
   'jja',
-  'type'
+  'type',
 ].forEach(key => delete packageJson[key]);
 const esPrefix = 'es'; // es 前缀
 const cjsPrefix = 'cjs'; // cjs 前缀
@@ -112,16 +112,16 @@ packageJson = {
     ...exportsList,
   },
   keywords: ['react-hooks', 'mudbean', 'vvi'],
-  homepage: 'https://npm.lmssee.com/react-hooks',
+  homepage: 'https://npms.gleanings.cn/react-hooks',
   dependencies: dependencies,
   peerDependencies: peerDependencies,
   bugs: {
-    url: 'https://github.com/MrMudBean/react-hooks/issues',
+    url: 'https://github.com/gleanings/react-hooks/issues',
     email: 'Mr.MudBean@outlook.com',
   },
   repository: {
     type: 'git',
-    url: 'git+https://github.com/MrMudBean/react-hooks.git',
+    url: 'git+https://github.com/gleanings/react-hooks.git',
   },
   publishConfig: {
     access: 'public',
